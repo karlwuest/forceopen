@@ -11,8 +11,7 @@ Instructions:
 * Download Pin (https://software.intel.com/en-us/articles/pintool-downloads)
 * unpack to ../
 * rename the newly created directory to 'pin'
-* run make
-
+* run `make`
 * run the pintool with:
 
 `../pin/pin -injection child -t obj-intel64/<pintool_name>.so -- <program to instrument> <program arguments>`
